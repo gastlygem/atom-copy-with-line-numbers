@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle copy-with-line-numbers",
+        "command": "copy-with-line-numbers:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "copy-with-line-numbers",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "copy-with-line-numbers:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

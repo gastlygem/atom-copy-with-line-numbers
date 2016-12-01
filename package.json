@@ -1,0 +1,18 @@
+{
+  "name": "copy-with-line-numbers",
+  "main": "./lib/copy-with-line-numbers",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "copy-with-line-numbers:toggle"
+  },
+  "repository": "https://github.com/atom/copy-with-line-numbers",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
