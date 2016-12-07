@@ -3,10 +3,14 @@
   "main": "./lib/copy-with-line-numbers",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "copy-with-line-numbers:toggle"
+    "atom-workspace": [
+      "copy-with-line-numbers:without-path",
+      "copy-with-line-numbers:with-full-path",
+      "copy-with-line-numbers:with-relative-path",
+      "copy-with-line-numbers:with-file-name"
+    ]
   },
   "repository": "https://github.com/atom/copy-with-line-numbers",
   "license": "MIT",
@@ -14,5 +18,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "left-pad": "^1.1.3"
   }
 }

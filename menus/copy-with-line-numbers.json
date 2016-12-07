@@ -2,8 +2,25 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle copy-with-line-numbers",
-        "command": "copy-with-line-numbers:toggle"
+        "label": "Copy with Line Numbers",
+        "submenu": [
+          {
+            "label": "Without Path",
+            "command": "copy-with-line-numbers:without-path"
+          },
+          {
+            "label": "With Full Path",
+            "command": "copy-with-line-numbers:with-full-path"
+          },
+          {
+            "label": "With Relative Path from the Project Directory",
+            "command": "copy-with-line-numbers:with-relative-path"
+          },
+          {
+            "label": "With File Name",
+            "command": "copy-with-line-numbers:with-file-name"
+          }
+        ]
       }
     ]
   },
@@ -12,11 +29,23 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "copy-with-line-numbers",
+          "label": "Copy with Line Numbers",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "copy-with-line-numbers:toggle"
+              "label": "Without Path",
+              "command": "copy-with-line-numbers:without-path"
+            },
+            {
+              "label": "With Full Path",
+              "command": "copy-with-line-numbers:with-full-path"
+            },
+            {
+              "label": "With Relative Path from the Project Directory",
+              "command": "copy-with-line-numbers:with-relative-path"
+            },
+            {
+              "label": "With File Name",
+              "command": "copy-with-line-numbers:with-file-name"
             }
           ]
         }
