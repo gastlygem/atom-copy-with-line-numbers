@@ -1,5 +1,12 @@
-# copy-with-line-numbers package
+# Copy With Line Numbers
 
-A short description of your package.
+Copy selected lines with line number and file path.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+This package is an imitation of [Copy With Line Numbers Reloaded](https://packagecontrol.io/packages/CopyWithLineNumbersReloaded) for Sublime Text.
+
+## Commands
+
+- `copy-with-line-numbers:without-path`
+- `copy-with-line-numbers:with-full-path`
+- `copy-with-line-numbers:with-relative-path`
+- `copy-with-line-numbers:with-file-name`

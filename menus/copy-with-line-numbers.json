@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Copy with Line Numbers",
+        "label": "Copy With Line Numbers",
         "submenu": [
           {
             "label": "Without Path",
@@ -29,7 +29,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Copy with Line Numbers",
+          "label": "Copy With Line Numbers",
           "submenu": [
             {
               "label": "Without Path",
