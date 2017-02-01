@@ -1,5 +1,5 @@
 {
-  "name": "copy-with-line-numbers",
+  "name": "atom-copy-with-line-numbers",
   "description": "Copy selected lines with line number and file path.",
   "version": "0.0.0",
   "activationCommands": {
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "main": "./lib/copy-with-line-numbers",
-  "repository": "https://github.com/yassh/copy-with-line-numbers",
+  "repository": "https://github.com/yassh/atom-copy-with-line-numbers",
   "scripts": {
     "fix": "npm-run-all fix:*",
     "fix:js": "eslint ./ --fix",
