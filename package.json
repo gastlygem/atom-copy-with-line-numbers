@@ -1,7 +1,7 @@
 {
   "name": "atom-copy-with-line-numbers",
   "description": "Copy selected lines with line number and file path.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "activationCommands": {
     "atom-workspace": [
       "copy-with-line-numbers:without-path",
