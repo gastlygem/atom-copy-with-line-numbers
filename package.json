@@ -37,5 +37,21 @@
     "fix:pack": "fixpack",
     "lint:js": "eslint ./",
     "test": "npm-run-all lint:*"
+  },
+  "configSchema": {
+    "padZero": {
+      "title": "Pad line numbers with zeroes",
+      "description": "If checked, line numbers will be shown as 001, 002, etc.",
+      "type": "boolean",
+      "default": false,
+      "order": 1
+    },
+    "separatorWidth": {
+      "title": "Separator width",
+      "description": "Number of spaces to separate line numbers and code",
+      "type": "integer",
+      "default": 3,
+      "order": 2
+    }
   }
 }
